@@ -1,0 +1,75 @@
+.footer-term{
+  width: 100%;
+  background-color: #2F4858;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.footer-term p{
+  width: 90%;
+  color: darkgray;
+  font-family: "Kalam";
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-term .b{
+  color: white;
+  text-decoration: none;
+  font-family: "Kalam";
+  display: flex;
+  justify-content: center;
+}
+
+.footer-term .pet{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-desc{
+  width: 100%;
+  background-color: #0C6774;
+  font-family: "Kalam";
+  padding-top: 1em;
+}
+
+.footer-desc-text{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-desc h2, h3{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.footer-desc p{
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.footer-desc-images{
+  display: flex;
+}
+
+.footer-desc .logo-container{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-desc .tutela-container{
+  display: flex;
+  align-items: center;
+}
+
+.footer-text-information{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: white;
+}

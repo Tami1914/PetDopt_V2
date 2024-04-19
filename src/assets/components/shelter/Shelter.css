@@ -1,0 +1,22 @@
+.shelter-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.shelter-container-img{
+  display: flex;
+  width: 35%;
+}
+
+.shelter-container-img img{
+  width: 100%;
+}
+
+.shelter-container-text{
+
+}
+
+.shelter-text-tittle{
+
+}

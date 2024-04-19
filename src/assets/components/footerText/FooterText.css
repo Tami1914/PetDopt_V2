@@ -1,0 +1,26 @@
+.footer-text-information{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2.5px;
+}
+
+.footer-information-container{
+  width: 90%;
+  column-count: 2;
+  color: white;
+}
+
+.text-list{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.footer-information-container a{
+  color: white;
+  text-decoration: none;
+}
