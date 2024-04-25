@@ -19,8 +19,8 @@ function Header() {
                 <Logo />
 
                 <div className="icons">
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                    <FontAwesomeIcon onClick={toggleMenu} icon={faBars} />
+                    <FontAwesomeIcon className="zoom" icon={faMagnifyingGlass} />
+                    <FontAwesomeIcon className="bars" onClick={toggleMenu} icon={faBars} />
                 </div>
             </div>
             {menuVisibility ? <Menu /> : ""}

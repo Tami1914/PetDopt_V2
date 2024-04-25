@@ -12,3 +12,45 @@
   color: white;
   font-family: "Kalam";
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .menu {
+    z-index: 10;
+    background-color: #0C6774;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7em;
+  }
+
+  .menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Kalam";
+    font-size: large;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .menu {
+    z-index: 10;
+    background-color: #0C6774;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7em;
+    visibility: visible;
+  }
+
+  .menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Kalam";
+    font-size: large;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
