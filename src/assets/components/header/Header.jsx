@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import Menu from "../menu/Menu";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import SocialMedia from "../socialMedia/SocialMedia";
+
 
 function Header() {
     const [menuVisibility, setMenuVisibility] = useState(false);
@@ -13,11 +15,23 @@ function Header() {
         setMenuVisibility(menuVisibility ? false : true);
     }
 
+    const handleResize = () => {
+        setMenuVisibility(window.innerWidth >= 768);
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <>
             <div className="top-bar">
                 <Logo />
-
+                <SocialMedia />
                 <div className="icons">
                     <FontAwesomeIcon className="zoom" icon={faMagnifyingGlass} />
                     <FontAwesomeIcon className="bars" onClick={toggleMenu} icon={faBars} />

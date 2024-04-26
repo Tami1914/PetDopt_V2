@@ -40,12 +40,9 @@
     }
 
     .icons{
-        width: 50%;
-        padding-left: 4em;
-        padding-right: 1em;
-        align-items: center;
+        width: 5%;
+        display: flex;
         font-size: xx-large;
-        justify-content: flex-end;
     }
 
     .bars{

@@ -1,0 +1,24 @@
+.social-media-container{
+    width: 50%;
+    display: flex;
+}
+
+.social-media-icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-media-icon a{
+    width: 33%;
+    height: 6vw;
+    display: flex;
+    color: white;
+}
+
+.instagram{
+    width: 33%;
+    height: 6vw;
+    display: flex;
+}
