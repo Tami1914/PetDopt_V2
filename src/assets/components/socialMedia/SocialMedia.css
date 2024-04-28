@@ -15,10 +15,75 @@
     height: 6vw;
     display: flex;
     color: white;
+    justify-content: center;
 }
 
 .instagram{
-    width: 33%;
+    width: 75%;
     height: 6vw;
     display: flex;
+    margin-right: 2.5em;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .social-media-container{
+        width: 50%;
+        display: flex;
+    }
+    
+    .social-media-icon{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .social-media-icon a{
+        width: 33%;
+        height: 6vw;
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
+    
+    .instagram{
+        width: 35%;
+        height: 6vw;
+        display: flex;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     .social-media-container{
+        width: 50%;
+        display: flex;
+    }
+    
+    .social-media-icon{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .social-media-icon a{
+        width: 33%;
+        height: 6vw;
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
+    
+    .instagram{
+        width: 20%;
+        height: 6vw;
+        display: flex;
+    }
+  }

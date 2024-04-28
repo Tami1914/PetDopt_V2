@@ -8,6 +8,9 @@ function Logo() {
             <div className="logo-container">
                 <img src={logo} />
             </div>
+            <div className="logo-tittle">
+                <p>PetDop Pet Shelter</p>
+            </div>
         </>
     )
 }
