@@ -1,6 +1,6 @@
 import FooterImage from "../footerImage/FooterImage";
 import FooterText from "../footerText/FooterText";
-import Logo from "../logo/Logo";
+import PetDoptFooterImage from "../petDoptFooterImage/PetDoptFooterImage";
 import "./Footer.css"
 
 function Footer() {
@@ -11,21 +11,21 @@ function Footer() {
 
         <div className="footer-desc-text">
           <h2>Encuentra a miles de animales en adopción</h2>
-         
+
           <h3>¿Estas pensando en adoptar? ¡Prueba PetDopt!</h3>
-          
+
           <p>En PetDopt podras encontrar cientos de perros, cachorros, gatos, gatitos, hurones, conejos,
             cobayas, ratas, ratones, chinchillas, jerbos, cerdos, reptiles, aves... en adopción procedentes
             de protectoras y asociaciones de animales o perreras de todo el mundo
           </p>
-          
+
           <p>Si estas buscando en adoptar o acoger a un animal, ¡Estas en el sitio adecuado!</p>
-          
+
           <p>Adopta, salva una vida, gana un amigo. Con PetDopt.</p>
         </div>
 
         <div className="footer-desc-images">
-          <Logo />
+          <PetDoptFooterImage/>
           <FooterImage />
         </div>
 
