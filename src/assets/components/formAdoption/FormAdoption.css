@@ -1,27 +1,85 @@
-.form-container{
-    width: 50%;
+.form-main-container{
+    width: 100%;
     height: 40vw;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0  auto;
 }
 
-.adoption-form{
-    display: flex;
+.form-main-container form{
     width: 70%;
-    height: 13em;
-    background-color: #48A269;
-    border-radius: 2em;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    background-color: seagreen;
     gap: 0.5em;
 }
 
-.animal-item{
+.form-main-container input{
+    width: 30%;
+}
+
+.show-animal-list{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.show-animal-list-elements{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.logo-container img {
+    width: 45%;
+    border-radius: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logo-tittle{
+    width: 0;
+    height: 0;
+   visibility: hidden;
+}
+
+/* Small devices (portrait tablets and large phones, 400px and up) */
+@media only screen and (min-width: 400px){
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
