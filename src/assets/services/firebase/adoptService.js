@@ -1,5 +1,5 @@
 import db from "./firebase.config.js";
-import { push, ref, get, remove } from "firebase/database";
+import { push, ref, get, remove, set } from "firebase/database";
 
 const refAnimals = ref(db, "/adopt");
 
@@ -20,8 +20,14 @@ const removeAnimals = (key) => {
   return remove(dbRefAnimals);
 }
 
+const editAnimals = (key, newData) => {
+  const dbRefAnimals = ref(db, `/adopt/${key}`);
+  return set(dbRefAnimals, newData);
+} 
+
 export default {
   getAllAnimals,
   addAnimals,
-  removeAnimals
+  removeAnimals,
+  editAnimals
 };

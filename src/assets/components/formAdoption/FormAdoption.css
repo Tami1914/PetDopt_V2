@@ -1,8 +1,9 @@
 .form-container{
     width: 50%;
-    height: 20vw;
+    height: 40vw;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin: 0  auto;
 }
@@ -13,6 +14,7 @@
     height: 13em;
     background-color: #48A269;
     border-radius: 2em;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
