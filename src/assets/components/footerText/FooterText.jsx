@@ -7,8 +7,8 @@ function FooterText() {
       <div className="footer-information-container">
         {
           footerWithInformation.map((footerText, index) => (
-            <div className="text-list">
-              <h2 key={index} >{footerText.tittle}</h2>
+            <div key={index} className="text-list">
+              <h2>{footerText.tittle}</h2>
               <a href="">{footerText.info1}</a>
               <a href="">{footerText.info2}</a>
               <a href="">{footerText.info3}</a>

@@ -1,5 +1,6 @@
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareRss } from "@fortawesome/free-solid-svg-icons";
 import "./SocialMedia.css";
 
 function SocialMedia() {
@@ -9,6 +10,9 @@ function SocialMedia() {
                 <div className="social-media-icon">
                     <a href="https://www.instagram.com/miwukiofficial/">
                         <FontAwesomeIcon className="instagram" icon={faInstagram} />
+                    </a>
+                    <a href="./rss/RSS.xml">
+                        <FontAwesomeIcon className="rss" icon={faSquareRss} />
                     </a>
                 </div>
             </div>
