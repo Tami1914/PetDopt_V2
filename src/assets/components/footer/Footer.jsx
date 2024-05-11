@@ -19,7 +19,7 @@ function Footer() {
             de protectoras y asociaciones de animales o perreras de todo el mundo
           </p>
 
-          <p>Si estas buscando en adoptar o acoger a un animal, ¡Estas en el sitio adecuado!</p>
+          <p>Si estas pensando en adoptar o acoger a un animal, ¡Estas en el sitio adecuado!</p>
 
           <p>Adopta, salva una vida, gana un amigo. Con PetDopt.</p>
         </div>
@@ -38,9 +38,9 @@ function Footer() {
       <div className="footer-term">
         <p>2023-2024©Una plataforma de <a className="pet" href="/home">PetDopt</a> con la colaboración de Fundación Affinity</p>
         <br />
-        <a className="b" href="">Términos y condiciones de uso</a>
+        <a className="b" href="/terms">Términos y condiciones de uso</a>
         <a className="b" href="">Política y privacidad</a>
-        <a className="b" href="">Coockies</a>
+        <a className="b" href="/cookies">Cookies</a>
         <a className="b" href="">FAQ</a>
         <a className="b" href="">Contacto</a>
       </div>

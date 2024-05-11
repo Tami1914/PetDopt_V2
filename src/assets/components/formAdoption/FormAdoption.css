@@ -15,7 +15,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-color: seagreen;
+    background-color: #00867A;
+    font-family: "Kalam";
     gap: 0.5em;
 }
 
@@ -31,12 +32,35 @@
     flex-direction: column;
 }
 
+.submit{
+    border: none;
+    color:white;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+
+.edit-button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+
+.delete-button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+
 .show-animal-list-elements{
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 1em;
+    font-family: "Kalam";
+    color: black;
 }
 
 .logo-tittle{

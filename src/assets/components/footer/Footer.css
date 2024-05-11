@@ -68,7 +68,6 @@ h3 {
   flex-direction: row;
   color: white;
 }
-
 /* Small devices (portrait tablets and large phones, 400px and up) */
 @media only screen and (min-width: 400px) {
 

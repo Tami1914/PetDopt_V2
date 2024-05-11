@@ -81,7 +81,7 @@ function AddAnimal() {
                         <label htmlFor="name">Animal:</label>
                         <input type="text" id="animal" name="animal" value={animal} onChange={changeAnimal} />
 
-                        <button type="submit">{animalIndex !== null ? "Editar Animal" : "Añadir animal"}</button>
+                        <button className="submit" type="submit">{animalIndex !== null ? "Editar Animal" : "Añadir animal"}</button>
                     </form>
 
                 <div className="show-animal-list">

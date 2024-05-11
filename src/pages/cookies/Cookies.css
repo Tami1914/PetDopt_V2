@@ -1,0 +1,20 @@
+.fusion-text-cookies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em;
+    font-family: "Kalam";
+    color: black;
+}
+
+.fusion-text-cookies h1{
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+}
+
+.fusion-text-cookies h2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+}
