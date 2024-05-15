@@ -55,6 +55,7 @@ h3 {
 
 .footer-desc-images {
   display: flex;
+  margin: 2em;
 }
 
 .footer-desc .tutela-container {
