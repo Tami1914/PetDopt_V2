@@ -14,6 +14,7 @@ The website consists of 3 articles related to music and an image gallery. In the
 
   - **Aythami Sanchez Garcia**
     [Tami.1914](https://github.com/Tami1914)
+    [RSS image](image-1.png)
 
 ## Acknowledgments
 
@@ -21,3 +22,4 @@ The website consists of 3 articles related to music and an image gallery. In the
   - Pixabay.
   - Font awesome.
   - Classmate.
+  - ChatGPT
